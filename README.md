@@ -17,7 +17,7 @@ A comprehensive web-based scouting application for FIRST Robotics Competition (F
 - **Frontend**: React.js with Material-UI
 - **State Management**: React Hooks and Context
 - **Data Storage**: Local Storage for offline functionality
-- **API Integration**: FIRST API v3.0
+- **API Integration**: ~~FIRST API v3.0~~
 - **Data Visualization**: Recharts for statistics and heatmaps
 
 ## Getting Started
@@ -26,7 +26,7 @@ A comprehensive web-based scouting application for FIRST Robotics Competition (F
 
 - Node.js (v14 or higher)
 - npm (v6 or higher)
-- FIRST API authentication token
+- ~~FIRST API authentication token~~
 
 ### Installation
 
@@ -48,20 +48,23 @@ A comprehensive web-based scouting application for FIRST Robotics Competition (F
 
 4. Open [http://localhost:3000](http://localhost:3000) to view the application
 
-## FIRST API Integration
 
-The application integrates with the FIRST API v3.0 to fetch official event data:
 
-1. Get your authentication token from [FIRST API Documentation](https://frc-api-docs.firstinspires.org/)
-2. Configure your credentials in the Settings page
-3. Use the data import features to load teams and matches
+# 🚨 API IS NOT YET OPERATIONAL 🚨
+## ~~FIRST API Integration~~
 
-### API Features
+~~The application integrates with the FIRST API v3.0 to fetch official event data:~~
 
-- Fetch event details and team lists
-- Get match schedules and results
-- Real-time match data updates
-- Automatic data synchronization
+1. ~~Get your authentication token from [FIRST API Documentation](https://frc-api-docs.firstinspires.org/)~~
+2. ~~Configure your credentials in the Settings page~~
+3. ~~Use the data import features to load teams and matches~~
+
+### ~~API Features~~
+
+- ~~Fetch event details and team lists~~
+- ~~Get match schedules and results~~
+- ~~Real-time match data updates~~
+- ~~Automatic data synchronization~~
 
 ## Usage Guide
 
@@ -81,7 +84,7 @@ The application integrates with the FIRST API v3.0 to fetch official event data:
 
 ### Data Management
 
-- Import team data from FIRST API
+- ~~Import team data from FIRST API~~
 - Export scouting data for backup
 - Offline data persistence
 - Match result synchronization
@@ -100,11 +103,10 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Acknowledgments
 
-- FIRST Robotics Competition
-- FIRST API Documentation Team
 - #9029 Team NF
+- FIRST Robotics Competition
 - All contributing FRC teams
 
 ## Support
 
-For support, please open an issue in the GitHub repository or contact the development team.
+For support, please open an issue in the GitHub repository or contact me.
