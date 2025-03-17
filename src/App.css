@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+/* Custom styles for FRC Ultra Scouting App */
+
+.content {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  min-height: calc(100vh - 64px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .content {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 56px);
+  }
+}
+
+/* Team card hover effect */
+.MuiCard-root {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.MuiCard-root:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Heatmap canvas styles */
+canvas {
+  border-radius: 4px;
+}
+
+/* Counter buttons in match tracking */
+.counter-button {
+  min-width: 40px;
+  min-height: 40px;
+  border-radius: 50%;
+}
+
+/* Radar chart tooltip */
+.recharts-tooltip-wrapper {
+  z-index: 1000;
+}
+
+/* Alliance colors */
+.red-alliance {
+  color: #ff5252;
+}
+
+.blue-alliance {
+  color: #2196f3;
+}
